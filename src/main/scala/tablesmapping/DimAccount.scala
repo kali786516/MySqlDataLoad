@@ -24,6 +24,13 @@ object DimAccount {
 
   def main(args: Array[String]): Unit = {
 
+    /*
+    * import org.apache.spark.sql.catalyst.ScalaReflection
+       val schema = ScalaReflection.schemaFor[TestCase].dataType.asInstanceOf[StructType]
+       case class TestCase(id: Long)
+       https://stackoverflow.com/questions/36746055/generate-a-spark-structtype-schema-from-a-case-class
+    * */
+
     Logger.getLogger("org").setLevel(Level.WARN)
     Logger.getLogger("akka").setLevel(Level.WARN)
 
