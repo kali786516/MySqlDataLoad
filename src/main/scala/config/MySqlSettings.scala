@@ -10,18 +10,10 @@ object MySqlSettings {
 
   object MySqlConnection {
     private val mysqlconnectionvalues=config.getConfig("mysql")
-
     lazy val username=mysqlconnectionvalues.getString("jdbcUsername")
     lazy val password=mysqlconnectionvalues.getString("jdbcPassword")
     lazy val hostname=mysqlconnectionvalues.getString("jdbcHostname")
     lazy val port=mysqlconnectionvalues.getInt("jdbcPort")
     lazy val database=mysqlconnectionvalues.getString("jdbcDatabase")
-
-
   }
-
-
-
-
-
 }

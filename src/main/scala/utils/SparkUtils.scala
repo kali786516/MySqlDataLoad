@@ -2,6 +2,7 @@ package utils
 
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.sql.SparkSession
+import org.apache.spark.sql.{Dataset, Encoders, SaveMode, SparkSession}
 
 /**
   * Created by kalit_000 on 8/20/17.
@@ -21,9 +22,11 @@ object SparkUtils {
       .enableHiveSupport()
       .getOrCreate()
 
-   // import spark.implicits._
+    import spark.implicits._
 
   }
+
+
 
 
 }

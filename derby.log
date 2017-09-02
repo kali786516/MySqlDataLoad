@@ -1,7 +1,7 @@
 ----------------------------------------------------------------
-Sun Aug 27 16:18:55 EDT 2017:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance a816c00e-015e-2558-e2a2-000018e68508 
-on database directory /Users/kalit_000/Downloads/MySqlDataLoad/metastore_db with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@aa5455e 
+Sat Sep 02 15:13:30 EDT 2017:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance a816c00e-015e-4403-26d1-000018a368d0 
+on database directory /Users/kalit_000/Downloads/MySqlDataLoad/metastore_db with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@5987e932 
 Loaded from file:/Users/kalit_000/.m2/repository/org/apache/derby/derby/10.10.2.0/derby-10.10.2.0.jar
 java.vendor=Oracle Corporation
 java.runtime.version=1.8.0_121-b13
